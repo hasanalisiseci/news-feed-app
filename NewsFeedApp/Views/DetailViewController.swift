@@ -116,6 +116,8 @@ class DetailViewController: UIViewController {
         let datas = realm.objects(FavNewsModel.self)
         for data in datas {
             if data.newsURL == newFavNews.newsURL {
+                //Favorilerden çıkarıldığında önceki sayfaya dönmesini sağlayan kod parçamız
+                _ = navigationController?.popToRootViewController(animated: true)
                 createToast(message: "Haber favorilerden kaldırıldı!",color: false)
                 try! realm.write {
                     realm.delete(data)
