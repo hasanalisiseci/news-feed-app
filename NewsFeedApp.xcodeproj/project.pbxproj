@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740C44A42729E0F5005DC163 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 740C44A32729E0F5005DC163 /* Images */; };
 		7451B046272554BE00A4C242 /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451B045272554BE00A4C242 /* ServiceModel.swift */; };
 		7492AAD127241DF4005177C5 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7492AAD027241DF4005177C5 /* NewsTableViewCell.swift */; };
 		7492AAD32724333D005177C5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7492AAD22724333D005177C5 /* DetailViewController.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		0F0996675530361F52B9002D /* Pods-NewsFeedApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsFeedApp.release.xcconfig"; path = "Target Support Files/Pods-NewsFeedApp/Pods-NewsFeedApp.release.xcconfig"; sourceTree = "<group>"; };
+		740C44A32729E0F5005DC163 /* Images */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Images; sourceTree = SOURCE_ROOT; };
 		7451B045272554BE00A4C242 /* ServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
 		748E6D632728A79800655ACB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7492AAD027241DF4005177C5 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		749612B62721C9DE007701F4 = {
 			isa = PBXGroup;
 			children = (
+				740C44A32729E0F5005DC163 /* Images */,
 				748E6D632728A79800655ACB /* README.md */,
 				749612C12721C9DE007701F4 /* NewsFeedApp */,
 				749612C02721C9DE007701F4 /* Products */,
@@ -217,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740C44A42729E0F5005DC163 /* Images in Resources */,
 				749612CF2721C9E1007701F4 /* LaunchScreen.storyboard in Resources */,
 				749612CC2721C9E1007701F4 /* Assets.xcassets in Resources */,
 				749612CA2721C9DE007701F4 /* Main.storyboard in Resources */,
