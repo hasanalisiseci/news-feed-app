@@ -11,14 +11,5 @@
 
 ## Uygulama Görüntüleri
 
-![Anasayfa](./Images/1.png)
+![ScreenShots](./Images/news-feed-app.png)
 
-![Search Bar](./Images/2.png)
-
-![Favoriler](./Images/3.png)
-
-![Detaylar](./Images/4.png)
-
-![Paylaş Butonu](./Images/5.png)
-
-![Kaynağı Görüntüle](./Images/6.png)

@@ -75,7 +75,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         detailNewsURL = article.url!
         
         tableView.deselectRow(at: indexPath, animated: true)
-        performSegue(withIdentifier: "goToDetailViewController", sender: nil)
+        performSeue(withIdentifier: "goToDetailViewController", sender: nil)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
